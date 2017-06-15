@@ -1,0 +1,10 @@
+c:\Users\f29pl\Desktop\EventTasker\bin\Debug\netcoreapp1.1\EventTasker.deps.json
+c:\Users\f29pl\Desktop\EventTasker\bin\Debug\netcoreapp1.1\EventTasker.runtimeconfig.json
+c:\Users\f29pl\Desktop\EventTasker\bin\Debug\netcoreapp1.1\EventTasker.runtimeconfig.dev.json
+c:\Users\f29pl\Desktop\EventTasker\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+c:\Users\f29pl\Desktop\EventTasker\obj\Debug\netcoreapp1.1\EventTasker.AssemblyInfo.cs
+c:\Users\f29pl\Desktop\EventTasker\bin\Debug\netcoreapp1.1\EventTasker.db
+c:\Users\f29pl\Desktop\EventTasker\bin\Debug\netcoreapp1.1\EventTasker.dll
+c:\Users\f29pl\Desktop\EventTasker\bin\Debug\netcoreapp1.1\EventTasker.pdb
+c:\Users\f29pl\Desktop\EventTasker\obj\Debug\netcoreapp1.1\EventTasker.dll
+c:\Users\f29pl\Desktop\EventTasker\obj\Debug\netcoreapp1.1\EventTasker.pdb

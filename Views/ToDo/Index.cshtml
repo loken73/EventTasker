@@ -1,0 +1,27 @@
+@using System.Collections.Generic
+@using System
+@model IEnumerable<ToDo>
+<br>
+<div id="ToDoIndex" class="row">
+  <h1 style="display: inline-block; margin-top:20px">Task Index</h1>
+  <a asp-area="" asp-controller="ToDo" asp-action="CreateToDo" id="CreateToDoButton">Create Task</a>
+</div>
+
+@foreach(ToDo m in Model) {
+
+var Time = DateTime.Now.Subtract(m.StartTime);
+
+var user = m.User.UserName;
+
+<div class="panel panel-primary">
+  <div class="panel-heading">@m.Title</div>
+  <div class="panel-body">
+    <ul>
+      <li>Assigned To: @user</li>
+      <li>Description: @m.Description</li>
+      <li>Duration: @Time</li>
+    </ul>
+  </div>
+</div>
+
+}

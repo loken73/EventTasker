@@ -1,0 +1,23 @@
+@using System.Collections.Generic
+@using System
+@model IEnumerable<ToDo>
+
+<h1>@ViewData["Name"]'s Tasks</h1>
+
+<br>
+
+@foreach(ToDo m in Model) {
+
+var Time = DateTime.Now.Subtract(m.StartTime);
+
+<div class="panel panel-primary">
+  <div class="panel-heading">@m.Title</div>
+  <div class="panel-body">
+    <ul>
+      <li>Description: @m.Description</li>
+      <li>Duration: @Time</li>
+    </ul>
+  </div>
+</div>
+
+}
